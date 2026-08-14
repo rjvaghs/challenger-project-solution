@@ -1,0 +1,131 @@
+{
+  "data": [
+    {
+      "expense_id": "EXP-0016",
+      "order_id": "ORD-008",
+      "expense_type": "processing_fee",
+      "amount": 4.62,
+      "created_at": "2026-07-03T01:00:00",
+      "updated_at": "2026-07-03T01:00:00"
+    },
+    {
+      "expense_id": "EXP-0017",
+      "order_id": "ORD-008",
+      "expense_type": "shipping_cost",
+      "amount": 12.99,
+      "created_at": "2026-07-03T01:00:00",
+      "updated_at": "2026-07-03T01:00:00"
+    },
+    {
+      "expense_id": "EXP-0018",
+      "order_id": "ORD-009",
+      "expense_type": "processing_fee",
+      "amount": 17.67,
+      "created_at": "2026-07-03T06:00:00",
+      "updated_at": "2026-07-03T07:00:00"
+    },
+    {
+      "expense_id": "EXP-0019",
+      "order_id": "ORD-009",
+      "expense_type": "shipping_cost",
+      "amount": 12.99,
+      "created_at": "2026-07-03T06:00:00",
+      "updated_at": "2026-07-03T07:00:00"
+    },
+    {
+      "expense_id": "EXP-0020",
+      "order_id": "ORD-010",
+      "expense_type": "processing_fee",
+      "amount": 22.05,
+      "created_at": "2026-07-03T11:00:00",
+      "updated_at": "2026-07-03T13:00:00"
+    },
+    {
+      "expense_id": "EXP-0021",
+      "order_id": "ORD-010",
+      "expense_type": "shipping_cost",
+      "amount": 9.99,
+      "created_at": "2026-07-03T11:00:00",
+      "updated_at": "2026-07-03T13:00:00"
+    },
+    {
+      "expense_id": "EXP-0022",
+      "order_id": "ORD-010",
+      "expense_type": "refund",
+      "amount": 75.0,
+      "created_at": "2026-07-04T11:00:00",
+      "updated_at": "2026-07-04T13:00:00"
+    },
+    {
+      "expense_id": "EXP-0023",
+      "order_id": "ORD-010",
+      "expense_type": "refund",
+      "amount": 75.0,
+      "created_at": "2026-07-04T11:00:00",
+      "updated_at": "2026-07-04T13:00:00"
+    },
+    {
+      "expense_id": "EXP-0024",
+      "order_id": "ORD-011",
+      "expense_type": "processing_fee",
+      "amount": 4.62,
+      "created_at": "2026-07-03T16:00:00",
+      "updated_at": "2026-07-03T19:00:00"
+    },
+    {
+      "expense_id": "EXP-0025",
+      "order_id": "ORD-011",
+      "expense_type": "shipping_cost",
+      "amount": 6.99,
+      "created_at": "2026-07-03T16:00:00",
+      "updated_at": "2026-07-03T19:00:00"
+    },
+    {
+      "expense_id": "EXP-0026",
+      "order_id": "ORD-012",
+      "expense_type": "discount",
+      "amount": 60.0,
+      "created_at": "2026-07-03T21:00:00",
+      "updated_at": "2026-07-03T21:00:00"
+    },
+    {
+      "expense_id": "EXP-0027",
+      "order_id": "ORD-012",
+      "expense_type": "processing_fee",
+      "amount": 17.7,
+      "created_at": "2026-07-03T21:00:00",
+      "updated_at": "2026-07-03T21:00:00"
+    },
+    {
+      "expense_id": "EXP-0028",
+      "order_id": "ORD-012",
+      "expense_type": "shipping_cost",
+      "amount": 12.99,
+      "created_at": "2026-07-03T21:00:00",
+      "updated_at": "2026-07-03T21:00:00"
+    },
+    {
+      "expense_id": "EXP-0029",
+      "order_id": "ORD-013",
+      "expense_type": "processing_fee",
+      "amount": 11.87,
+      "created_at": "2026-07-04T02:00:00",
+      "updated_at": "2026-07-04T03:00:00"
+    },
+    {
+      "expense_id": "EXP-0030",
+      "order_id": "ORD-013",
+      "expense_type": "shipping_cost",
+      "amount": null,
+      "created_at": "2026-07-04T02:00:00",
+      "updated_at": "2026-07-04T03:00:00"
+    }
+  ],
+  "pagination": {
+    "page": 2,
+    "page_size": 15,
+    "total_pages": 7,
+    "has_more": true,
+    "next_page": 3
+  }
+}

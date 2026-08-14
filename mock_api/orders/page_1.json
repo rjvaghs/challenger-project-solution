@@ -1,0 +1,176 @@
+{
+  "data": [
+    {
+      "order_id": "ORD-001",
+      "customer_id": "CUS-001",
+      "created_at": "2026-07-01T14:00:00",
+      "updated_at": "2026-07-01T15:00:00",
+      "product_id": "PRD-001",
+      "product_name": "Glow Wand",
+      "channel": "Meta",
+      "gross_revenue": 199,
+      "currency": "USD"
+    },
+    {
+      "order_id": "ORD-002",
+      "customer_id": "CUS-002",
+      "created_at": "2026-07-01T19:00:00",
+      "updated_at": "2026-07-01T21:00:00",
+      "product_id": "PRD-002",
+      "product_name": "Hydra Serum",
+      "channel": "Google",
+      "gross_revenue": 399,
+      "currency": "USD"
+    },
+    {
+      "order_id": "ORD-003",
+      "customer_id": "CUS-003",
+      "created_at": "2026-07-02T00:00:00",
+      "updated_at": "2026-07-02T03:00:00",
+      "product_id": "PRD-003",
+      "product_name": "Renewal Mask",
+      "channel": "Email",
+      "gross_revenue": 299,
+      "currency": "USD"
+    },
+    {
+      "order_id": "ORD-004",
+      "customer_id": "CUS-004",
+      "created_at": "2026-07-02T05:00:00",
+      "updated_at": "2026-07-02T05:00:00",
+      "product_id": "PRD-004",
+      "product_name": "SkinLift Pro",
+      "channel": "Affiliate",
+      "gross_revenue": 199,
+      "currency": "USD"
+    },
+    {
+      "order_id": "ORD-005",
+      "customer_id": "CUS-005",
+      "created_at": "2026-07-02T10:00:00",
+      "updated_at": "2026-07-02T11:00:00",
+      "product_id": "PRD-001",
+      "product_name": "Glow Wand",
+      "channel": "Meta",
+      "gross_revenue": 599,
+      "currency": "USD"
+    },
+    {
+      "order_id": "ORD-006",
+      "customer_id": "CUS-006",
+      "created_at": "2026-07-02T15:00:00",
+      "updated_at": "2026-07-02T17:00:00",
+      "product_id": "PRD-002",
+      "product_name": "Hydra Serum",
+      "channel": "Google",
+      "gross_revenue": 149,
+      "currency": "USD"
+    },
+    {
+      "order_id": "ORD-007",
+      "customer_id": "CUS-007",
+      "created_at": "2026-07-02T20:00:00",
+      "updated_at": "2026-07-02T23:00:00",
+      "product_id": "PRD-003",
+      "product_name": "Renewal Mask",
+      "channel": "Email",
+      "gross_revenue": 299,
+      "currency": "USD"
+    },
+    {
+      "order_id": "ORD-008",
+      "customer_id": "CUS-008",
+      "created_at": "2026-07-03T01:00:00",
+      "updated_at": "2026-07-03T01:00:00",
+      "product_id": "PRD-004",
+      "product_name": "SkinLift Pro",
+      "channel": "Affiliate",
+      "gross_revenue": 149,
+      "currency": "USD"
+    },
+    {
+      "order_id": "ORD-009",
+      "customer_id": "CUS-009",
+      "created_at": "2026-07-03T06:00:00",
+      "updated_at": "2026-07-03T07:00:00",
+      "product_id": "PRD-001",
+      "product_name": "Glow Wand",
+      "channel": "Meta",
+      "gross_revenue": 599,
+      "currency": "USD"
+    },
+    {
+      "order_id": "ORD-010",
+      "customer_id": "CUS-010",
+      "created_at": "2026-07-03T11:00:00",
+      "updated_at": "2026-07-03T13:00:00",
+      "product_id": "PRD-002",
+      "product_name": "Hydra Serum",
+      "channel": "Google",
+      "gross_revenue": 749.99,
+      "currency": "USD"
+    },
+    {
+      "order_id": "ORD-011",
+      "customer_id": "CUS-011",
+      "created_at": "2026-07-03T16:00:00",
+      "updated_at": "2026-07-03T19:00:00",
+      "product_id": "PRD-003",
+      "product_name": "Renewal Mask",
+      "channel": "Email",
+      "gross_revenue": 149,
+      "currency": "USD"
+    },
+    {
+      "order_id": "ORD-012",
+      "customer_id": "CUS-012",
+      "created_at": "2026-07-03T21:00:00",
+      "updated_at": "2026-07-03T21:00:00",
+      "product_id": "PRD-004",
+      "product_name": "SkinLift Pro",
+      "channel": "Affiliate",
+      "gross_revenue": 599.99,
+      "currency": "USD"
+    },
+    {
+      "order_id": "ORD-013",
+      "customer_id": "CUS-013",
+      "created_at": "2026-07-04T02:00:00",
+      "updated_at": "2026-07-04T03:00:00",
+      "product_id": "PRD-001",
+      "product_name": "Glow Wand",
+      "channel": "Meta",
+      "gross_revenue": 399,
+      "currency": "USD"
+    },
+    {
+      "order_id": "ORD-014",
+      "customer_id": "CUS-014",
+      "created_at": "2026-07-04T07:00:00",
+      "updated_at": "2026-07-04T09:00:00",
+      "product_id": "PRD-002",
+      "product_name": "Hydra Serum",
+      "channel": "Google",
+      "gross_revenue": 299.99,
+      "currency": "USD"
+    },
+    {
+      "order_id": "ORD-015",
+      "customer_id": "CUS-015",
+      "created_at": "2026-07-04T12:00:00",
+      "updated_at": "2026-07-04T15:00:00",
+      "product_id": "PRD-003",
+      "product_name": "Renewal Mask",
+      "channel": "Email",
+      "gross_revenue": 199,
+      "currency": "USD"
+    }
+  ],
+  "pagination": {
+    "page": 1,
+    "page_size": 15,
+    "total_pages": 3,
+    "has_more": true,
+    "next_page": 2
+  }
+}

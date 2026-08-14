@@ -1,0 +1,6 @@
+.venv/
+__pycache__/
+dbt_project/target/
+dbt_project/logs/
+warehouse/*.csv
+warehouse/*.duckdb

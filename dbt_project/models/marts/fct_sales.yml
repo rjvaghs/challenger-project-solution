@@ -1,0 +1,30 @@
+version: 2
+
+models:
+  - name: fct_sales
+    description: >
+      Sales fact at order grain. Gross Revenue minus discounts, refunds,
+      processing fees, and shipping cost equals Net Revenue.
+    columns:
+      - name: order_id
+        tests:
+          - not_null
+          - unique
+      - name: gross_revenue
+        tests:
+          - not_null
+      - name: discount_amount
+        tests:
+          - not_null
+      - name: refund_amount
+        tests:
+          - not_null
+      - name: processing_fees
+        tests:
+          - not_null
+      - name: shipping_cost
+        tests:
+          - not_null
+      - name: net_revenue
+        tests:
+          - not_null

@@ -1,0 +1,7 @@
+mdd_data_engineer_challenge:
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      path: ../warehouse/challenge.duckdb
+      threads: 1

@@ -1,0 +1,15 @@
+name: "mdd_data_engineer_challenge"
+version: "1.0.0"
+config-version: 2
+
+profile: "mdd_data_engineer_challenge"
+model-paths: ["models"]
+
+models:
+  mdd_data_engineer_challenge:
+    staging:
+      +materialized: view
+    intermediate:
+      +materialized: ephemeral
+    marts:
+      +materialized: table

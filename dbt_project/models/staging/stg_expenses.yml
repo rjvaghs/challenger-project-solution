@@ -1,0 +1,32 @@
+version: 2
+
+models:
+  - name: stg_expenses
+    description: >
+      Cleaned and deduplicated synthetic expense data (one row per expense_id).
+      Duplicate API rows are resolved by keeping the latest updated_at.
+    columns:
+      - name: expense_id
+        description: "Natural key for an expense record."
+        tests:
+          - not_null
+          - unique
+      - name: order_id
+        description: "Parent order; must exist in stg_orders."
+        tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('stg_orders')
+                field: order_id
+      - name: expense_type
+        description: "Business expense category used for Net Revenue components."
+        tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values:
+                  - discount
+                  - refund
+                  - processing_fee
+                  - shipping_cost

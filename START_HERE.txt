@@ -1,0 +1,2 @@
+Start with README.md and the separate challenger brief.
+All data is synthetic.
